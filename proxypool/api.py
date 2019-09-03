@@ -12,6 +12,7 @@ def get_conn():
         g.redis = RedisClient()
     return g.redis
 
+##注释
 
 @app.route('/')
 def index():
